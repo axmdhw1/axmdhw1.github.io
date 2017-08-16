@@ -171,13 +171,16 @@ hgroup h3{
 .download{
 	width: 100%;
 	min-height: 1405px;
-	border: 1px solid black;
 }
 .mainsec1{
 	background-color:  #17C888;
 }
 .mainsec2{
-	background-color:  #44a36f;
+	background-color:  #00AA6C;
+	width: 100%;
+	min-height: 862px;
+	margin-top: -380px;
+	clip-path: polygon(0 43%, 100% 0%, 100% 100%, 0% 100%);
 }
 .sec1{
 	width: 1280px;
@@ -192,10 +195,40 @@ hgroup h3{
 	margin: 0 auto;
 }
 .sec2{
-	background-color:  #44a36f;
+	background-color:  #00AA6C;
 	min-height: 862px;
 	width: 1280px;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-top: 364px;
+	box-sizing: border-box;
+	background-image: url("img/shadow2.png");
+	background-repeat: no-repeat;
+	background-position: -12px 365px;
+}
+.downbutton{
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 3px;
+	border-color:  #ffffff;
+	background-color: transparent;
+	width: 202px;
+	height: 57px;
+	display: block;
+	margin-top: 42px;
+	font-family: OpenSans;
+	color:  #ffffff;
+	font-size: 27.35px;
+	font-weight: 600;
+	line-height: 52px;
+	text-align: center;
+	text-decoration: none;
+}
+.downbutton:hover{
+	filter: drop-shadow(8px 8px 10px black);
+    transform: scale(1.05);
 }
 .sec1 a{
 	display: block;
@@ -203,6 +236,18 @@ hgroup h3{
 	width: 153px;
 	height: 153px;
 	margin-top: 86px;
+}
+.laptop{
+	display: block;
+	background-image: url("img/laptop.png");
+	width: 272px;
+	min-height: 227px;
+	background-repeat: no-repeat;
+}
+.sec2 article{
+	width: 506px;
+	min-height: 313px;
+	margin-left: 65px;
 }
 .sec1 article{
 	width: 648px;
@@ -218,7 +263,16 @@ hgroup h3{
 	text-align: center;
 	margin: 0;
 }
-.sec1 article p{
+.sec2 article h3{
+	font-family: OpenSans;
+	color:  #ffffff;
+	font-size: 39.35px;
+	font-weight: 600;
+	line-height: 62px;
+	text-align: left;
+	margin: 0;
+}
+.sec1 article p, .sec2 article p{
 	font-family: OpenSans;
 	color:  #ffffff;
 	font-size: 14px;
